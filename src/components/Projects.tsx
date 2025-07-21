@@ -82,10 +82,6 @@ export const Projects = () => {
                     <Github className="h-4 w-4 mr-2" />
                     View Code
                   </Button>
-                  <Button variant="outline" size="sm" className="border-accent text-accent hover:bg-accent/10">
-                    <ExternalLink className="h-4 w-4 mr-2" />
-                    Live Demo
-                  </Button>
                 </div>
               </CardContent>
             </Card>
