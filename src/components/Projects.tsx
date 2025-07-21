@@ -14,7 +14,8 @@ const projects = [
       "Custom transformer architecture built from scratch"
     ],
     technologies: ["C++", "CUDA", "GPU Computing", "AI/ML", "Performance Optimization"],
-    gradient: "bg-gradient-to-br from-primary/20 to-accent/20"
+    gradient: "bg-gradient-to-br from-primary/20 to-accent/20",
+    link: "https://github.com/bran7230/CPP-AND-CUDA-AI"
   },
   {
     title: "Computer Debugger Tool (C#)",
@@ -26,7 +27,8 @@ const projects = [
       "Implemented comprehensive system monitoring and analysis features"
     ],
     technologies: ["C#", "Multithreading", "System Analysis", "UI Design", "Real-time Processing"],
-    gradient: "bg-gradient-to-br from-accent/20 to-primary/20"
+    gradient: "bg-gradient-to-br from-accent/20 to-primary/20",
+    link: "https://github.com/bran7230/Computer-debugger"
   }
 ];
 
@@ -78,10 +80,17 @@ export const Projects = () => {
                 </div>
 
                 <div className="flex gap-3 pt-4">
+                 <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                  >
                   <Button variant="outline" size="sm" className="border-primary text-primary hover:bg-primary/10">
-                    <Github className="h-4 w-4 mr-2" />
-                    View Code
-                  </Button>
+                  <Github className="h-4 w-4 mr-2" />
+                  View Code
+                 </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>
