@@ -28,23 +28,7 @@ export const Contact = () => {
                       <Mail className="h-5 w-5 text-primary" />
                       <div>
                         <p className="font-medium">Email</p>
-                        <p className="text-sm text-muted-foreground">brandon.ta.trumble@icloud.com</p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-center gap-4 p-3 rounded-lg bg-secondary/20 hover:bg-secondary/30 transition-colors">
-                      <Phone className="h-5 w-5 text-primary" />
-                      <div>
-                        <p className="font-medium">Phone</p>
-                        <p className="text-sm text-muted-foreground">705-796-0861</p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-center gap-4 p-3 rounded-lg bg-secondary/20 hover:bg-secondary/30 transition-colors">
-                      <MapPin className="h-5 w-5 text-primary" />
-                      <div>
-                        <p className="font-medium">Location</p>
-                        <p className="text-sm text-muted-foreground">Barrie, ON</p>
+                        <p className="text-sm text-muted-foreground">brandonttrumble@gmail.com</p>
                       </div>
                     </div>
 

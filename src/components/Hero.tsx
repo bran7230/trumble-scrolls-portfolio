@@ -29,13 +29,10 @@ export const Hero = () => {
               <MapPin className="h-4 w-4" />
               Barrie, ON
             </div>
-            <div className="flex items-center gap-2">
-              <Phone className="h-4 w-4" />
-              705-796-0861
-            </div>
+           
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
-              brandon.ta.trumble@icloud.com
+              brandonttrumble@gmail.com
             </div>
             <div className="flex items-center gap-2">
               <Github className="h-4 w-4" />
