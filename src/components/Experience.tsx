@@ -31,9 +31,9 @@ const workExperience = [
   },
   {
     company: "Domino's Pizza",
-    position: "Team Member",
+    position: "Team Leader",
     location: "Barrie, ON", 
-    period: "June 2024",
+    period: "July 2021 - June 2024",
     responsibilities: [
       "Delivered customer service in a high-pressure, fast-paced team environment",
       "Handled food prep, order fulfillment, and cash transactions with accuracy",
