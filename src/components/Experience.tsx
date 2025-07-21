@@ -22,7 +22,7 @@ const workExperience = [
     company: "Royal Victoria Hospital (RVH)",
     position: "Environmental Services Associate",
     location: "Barrie, ON",
-    period: "Sep 2024 - Present",
+    period: "Sep 2024 - May 2025",
     responsibilities: [
       "Maintained hospital cleanliness and safety according to infection control standards",
       "Collaborated with healthcare teams to support high-risk clinical environments", 
