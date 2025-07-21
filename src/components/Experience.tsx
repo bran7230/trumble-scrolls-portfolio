@@ -12,7 +12,7 @@ const education = [
   {
     institution: "Barrie North Collegiate Institute", 
     degree: "Ontario Secondary School Diploma (Honours)",
-    period: "2021",
+    period: "June 2024",
     status: "Completed"
   }
 ];
