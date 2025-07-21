@@ -10,8 +10,11 @@ export const Hero = () => {
       
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-tech-gradient bg-clip-text text-transparent animate-glow-pulse">
-            Brandon Trumble
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 relative">
+            <span className="bg-tech-gradient bg-clip-text text-transparent">
+              Brandon Trumble
+            </span>
+            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-tech-gradient rounded-full"></div>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
             Computer Programming & Analysis Student
