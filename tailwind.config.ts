@@ -98,7 +98,7 @@ export default {
 				},
 				'scroll-left': {
 					'0%': { transform: 'translateX(0%)' },
-					'100%': { transform: 'translateX(-33.333%)' }
+					'100%': { transform: 'translateX(-100%)' }
 				},
 				'scroll-seamless': {
 					'0%': { transform: 'translateX(0%)' },
@@ -122,7 +122,7 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'scroll-left': 'scroll-left 15s linear infinite',
+				'scroll-left': 'scroll-left 30s linear infinite',
 				'glow-pulse': 'glow-pulse 3s ease-in-out infinite',
 				'float': 'float 3s ease-in-out infinite'
 			}
