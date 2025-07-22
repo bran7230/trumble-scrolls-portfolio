@@ -68,7 +68,7 @@ export const Contact = () => {
                       <Download className="h-4 w-4 mr-2" />
                       Download Resume
                     </Button>
-
+                     <a href="https://github.com/bran7230" target="_blank">
                     <Button 
                       variant="outline" 
                       size="lg" 
@@ -77,6 +77,7 @@ export const Contact = () => {
                       <Github className="h-4 w-4 mr-2" />
                       View GitHub
                     </Button>
+                    </a>
                   </div>
                 </div>
               </div>
