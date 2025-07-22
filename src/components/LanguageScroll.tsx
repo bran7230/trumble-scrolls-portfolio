@@ -3,16 +3,21 @@ const languages = [
 ];
 
 export const LanguageScroll = () => {
-  // Duplicate the array to create seamless loop
-  const duplicatedLanguages = [...languages, ...languages];
+  // Triple the array for truly seamless scrolling
+  const scrollLanguages = [...languages, ...languages, ...languages];
 
   return (
-    <div className="w-full overflow-hidden bg-secondary/30 border-y border-border">
-      <div className="flex animate-scroll-left">
-        {duplicatedLanguages.map((language, index) => (
+    <div className="w-full overflow-hidden bg-secondary/20 border-y border-border">
+      <div 
+        className="flex"
+        style={{
+          animation: 'scroll-seamless 30s linear infinite',
+        }}
+      >
+        {scrollLanguages.map((language, index) => (
           <div
             key={index}
-            className="flex-shrink-0 px-8 py-4 mx-4 text-lg font-semibold text-primary bg-tech-gradient bg-clip-text text-transparent whitespace-nowrap"
+            className="flex-shrink-0 px-8 py-4 mx-4 text-lg font-semibold text-foreground whitespace-nowrap"
           >
             {language}
           </div>

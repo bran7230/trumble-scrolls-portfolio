@@ -100,6 +100,10 @@ export default {
 					'0%': { transform: 'translateX(0%)' },
 					'100%': { transform: 'translateX(-100%)' }
 				},
+				'scroll-seamless': {
+					'0%': { transform: 'translateX(0%)' },
+					'100%': { transform: 'translateX(-33.333%)' }
+				},
 				'glow-pulse': {
 					'0%, 100%': { 
 						boxShadow: '0 0 20px hsl(213 94% 68% / 0.4)',
