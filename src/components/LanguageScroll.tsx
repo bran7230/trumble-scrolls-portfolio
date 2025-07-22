@@ -20,9 +20,10 @@ export const LanguageScroll = () => {
   return (
     <div className="w-full overflow-hidden bg-secondary/20 border-y border-border py-4">
       <div 
-        className="flex animate-scroll-left"
+        className="flex"
         style={{
-          width: `${scrollItems.length * 200}px`
+          width: `${scrollItems.length * 200}px`,
+          animation: 'scroll-left 45s linear infinite'
         }}
       >
         {scrollItems.map((item, index) => {
