@@ -93,7 +93,7 @@ export const Achievements = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <Award className="h-6 w-6 text-accent" />
-                  Technical Certifications
+                  Professional Development
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -113,7 +113,7 @@ export const Achievements = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <Trophy className="h-6 w-6 text-primary" />
-                  Academic Recognition
+                  Honors & Awards
                 </CardTitle>
               </CardHeader>
               <CardContent>
