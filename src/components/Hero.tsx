@@ -40,15 +40,12 @@ export const Hero = () => {
             </div>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
              <a href="https://github.com/bran7230" target="_blank">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow-primary">
               View Projects
             </Button>
             </a>
-            <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10">
-              Download Resume
-            </Button>
           </div>
         </div>
       </div>

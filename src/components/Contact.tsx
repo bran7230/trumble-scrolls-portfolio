@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Github, Mail, MapPin, Phone, Download } from "lucide-react";
+import { Github, Mail, MapPin, Phone } from "lucide-react";
 
 export const Contact = () => {
   return (
@@ -52,27 +52,21 @@ export const Contact = () => {
                   </div>
 
                   <div className="flex flex-col gap-4">
-                    <Button 
-                      size="lg" 
-                      className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow-primary"
-                    >
-                      <Mail className="h-4 w-4 mr-2" />
-                      Send Email
-                    </Button>
+                    <a href="mailto:brandonttrumble@gmail.com">
+                      <Button 
+                        size="lg" 
+                        className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow-primary w-full"
+                      >
+                        <Mail className="h-4 w-4 mr-2" />
+                        Send Email
+                      </Button>
+                    </a>
                     
-                    <Button 
-                      variant="outline" 
-                      size="lg" 
-                      className="border-accent text-accent hover:bg-accent/10"
-                    >
-                      <Download className="h-4 w-4 mr-2" />
-                      Download Resume
-                    </Button>
                      <a href="https://github.com/bran7230" target="_blank">
                     <Button 
                       variant="outline" 
                       size="lg" 
-                      className="border-primary text-primary hover:bg-primary/10"
+                      className="border-primary text-primary hover:bg-primary/10 w-full"
                     >
                       <Github className="h-4 w-4 mr-2" />
                       View GitHub
