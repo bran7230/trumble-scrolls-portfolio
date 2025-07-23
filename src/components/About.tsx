@@ -5,23 +5,23 @@ import { Target, Award, Code2, Users } from "lucide-react";
 const highlights = [
   {
     icon: Target,
-    title: "Problem Solving",
-    description: "I like figuring out why things break and finding ways to fix them"
+    title: "Goal-Oriented",
+    description: "Focused on delivering scalable solutions that solve real-world problems"
   },
   {
     icon: Award,
-    title: "Learning Fast",
-    description: "Pick up new technologies pretty quickly when I need to"
+    title: "Performance-Driven",
+    description: "Consistently delivering projects on time with optimal performance"
   },
   {
     icon: Code2,
-    title: "Clean Code",
-    description: "Try to write code that's easy to read and maintain"
+    title: "Technical Excellence",
+    description: "Committed to clean, maintainable code and best practices"
   },
   {
     icon: Users,
-    title: "Team Work",
-    description: "Good at communicating and working with others on projects"
+    title: "Team Collaboration",
+    description: "Strong communication skills and experience in agile environments"
   }
 ];
 
@@ -34,7 +34,7 @@ export const About = () => {
             About Me
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Computer science student who enjoys coding and learning new things
+            Passionate developer with a focus on innovation and technical excellence
           </p>
         </div>
 
@@ -44,34 +44,34 @@ export const About = () => {
             <div className="space-y-6">
               <Card className="border-border bg-card/50 backdrop-blur-sm">
                 <CardContent className="p-8">
-                  <h3 className="text-2xl font-semibold mb-4 text-primary">About Me</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-primary">Professional Summary</h3>
                   <div className="space-y-4 text-muted-foreground">
                     <p>
-                      I'm a second-year Computer Programming & Analysis student at Georgian College. 
-                      I really enjoy working with C++ and CUDA for GPU programming - there's something 
-                      satisfying about optimizing code to run faster.
+                      As a Computer Programming & Analysis student with specialized expertise in AI development 
+                      and CUDA programming, I bring a unique combination of theoretical knowledge and practical 
+                      application to every project.
                     </p>
                     <p>
-                      I've been getting into web development lately with React and TypeScript. 
-                      It's pretty different from the low-level stuff I'm used to, but I like 
-                      how quickly you can build something that people can actually use.
+                      My experience spans from low-level systems programming in C++ to modern web technologies, 
+                      with a particular focus on performance optimization and GPU computing. I thrive in 
+                      collaborative environments where innovative thinking meets technical challenges.
                     </p>
                     <p>
-                      Looking for internship opportunities where I can work on interesting projects 
-                      and learn from experienced developers. I'm particularly interested in anything 
-                      involving performance optimization or AI applications.
+                      Currently seeking opportunities to contribute to cutting-edge projects in AI, system 
+                      development, or full-stack applications where I can leverage my diverse skill set 
+                      and passion for technology.
                     </p>
                   </div>
                   
                   <div className="mt-6 flex flex-wrap gap-2">
                     <Badge variant="secondary" className="bg-primary/20 text-primary">
-                      Looking for Internships
+                      Available for Full-time
                     </Badge>
                     <Badge variant="secondary" className="bg-accent/20 text-accent">
-                      Open to Part-time
+                      Open to Internships
                     </Badge>
                     <Badge variant="secondary" className="bg-secondary/50">
-                      Can Work Remote
+                      Remote-Friendly
                     </Badge>
                   </div>
                 </CardContent>
@@ -80,7 +80,7 @@ export const About = () => {
 
             {/* Key Highlights */}
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold mb-6">What I'm Good At</h3>
+              <h3 className="text-2xl font-semibold mb-6">What I Bring</h3>
               <div className="grid grid-cols-1 gap-4">
                 {highlights.map((highlight, index) => (
                   <Card key={index} className="border-border bg-card/30 hover:bg-card/50 transition-all duration-300">

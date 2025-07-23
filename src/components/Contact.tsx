@@ -11,7 +11,7 @@ export const Contact = () => {
             Let's Connect
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Feel free to reach out if you want to chat about projects or opportunities
+            Ready to collaborate on innovative projects or discuss opportunities in AI and system development
           </p>
         </div>
 
@@ -45,10 +45,9 @@ export const Contact = () => {
                 {/* CTA Section */}
                 <div className="flex flex-col justify-center space-y-6">
                   <div className="text-center">
-                    <h4 className="text-xl font-semibold mb-3">Want to work together?</h4>
+                    <h4 className="text-xl font-semibold mb-3">Ready to collaborate?</h4>
                     <p className="text-muted-foreground mb-6">
-                      I'm always interested in hearing about new projects, especially anything involving 
-                      CUDA programming, web development, or just cool technical challenges.
+                      Let's discuss how my skills in AI development, CUDA programming, and system optimization can contribute to your next project.
                     </p>
                   </div>
 
