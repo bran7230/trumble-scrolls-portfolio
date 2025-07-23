@@ -6,7 +6,7 @@ const achievements = [
   {
     icon: Trophy,
     title: "Academic Excellence",
-    metric: "3.8+ GPA",
+    metric: "3.9 GPA",
     description: "Consistently maintaining high academic performance in Computer Programming & Analysis",
     color: "primary"
   },

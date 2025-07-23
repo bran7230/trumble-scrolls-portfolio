@@ -6,13 +6,13 @@ const skillCategories = [
   {
     title: "Programming Languages",
     icon: Code2,
-    skills: ["C++", "Java", "C#", "CUDA", "Python", "JavaScript", "SQL", "Bash"],
+    skills: ["C++", "Java", "C#", "CUDA", "Python", "JavaScript", "TypeScript", "SQL", "Bash"],
     color: "primary"
   },
   {
     title: "Tools & Platforms", 
     icon: Settings,
-    skills: ["Git", "GitHub", "Visual Studio", "VS Code", "Unity", "Windows 10", "Linux/Bash"],
+    skills: ["Git", "GitHub", "Visual Studio", "VS Code", "Unity", "ReactJS", "Tailwind CSS", "Windows 10", "Linux/Bash"],
     color: "accent"
   },
   {
