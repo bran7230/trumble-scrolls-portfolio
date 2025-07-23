@@ -6,7 +6,7 @@ const achievements = [
   {
     icon: Trophy,
     title: "Academic Excellence",
-    metric: "3.9 GPA",
+    metric: "3.9+ GPA",
     description: "Consistently maintaining high academic performance in Computer Programming & Analysis",
     color: "primary"
   },
@@ -87,50 +87,6 @@ export const Achievements = () => {
             ))}
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Certifications & Skills */}
-            <Card className="border-border bg-card/50 backdrop-blur-sm">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-3">
-                  <Award className="h-6 w-6 text-accent" />
-                  Professional Development
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-3">
-                  {certifications.map((cert, index) => (
-                    <div key={index} className="flex items-center gap-3 p-3 rounded-lg bg-secondary/20 hover:bg-secondary/30 transition-colors">
-                      <Star className="h-4 w-4 text-accent flex-shrink-0" />
-                      <span className="text-sm">{cert}</span>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Academic Recognition */}
-            <Card className="border-border bg-card/50 backdrop-blur-sm">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-3">
-                  <Trophy className="h-6 w-6 text-primary" />
-                  Honors & Awards
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-4">
-                  {recognitions.map((recognition, index) => (
-                    <div key={index} className="border-l-2 border-primary/30 pl-4 py-2">
-                      <div className="flex items-center justify-between mb-1">
-                        <h4 className="font-semibold text-foreground">{recognition.title}</h4>
-                        <Badge variant="secondary" className="text-xs">{recognition.period}</Badge>
-                      </div>
-                      <p className="text-sm text-muted-foreground">{recognition.description}</p>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          </div>
         </div>
       </div>
     </section>
