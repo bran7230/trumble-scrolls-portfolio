@@ -20,8 +20,8 @@ export const Hero = () => {
             Computer Programming & Analysis Student
           </p>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Specializing in AI development, CUDA programming, and system-level solutions. 
-            Building the future with innovative technology.
+            I love working with CUDA for GPU programming and building cool projects. 
+            Currently learning React and always excited about new tech challenges.
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 mb-8 text-sm text-muted-foreground">

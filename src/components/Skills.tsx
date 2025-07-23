@@ -38,8 +38,7 @@ export const Skills = () => {
             Technical Skills
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A comprehensive toolkit spanning low-level systems programming to modern web technologies,
-            with specialized expertise in AI and GPU computing.
+            Technologies I've worked with in school projects and personal coding
           </p>
         </div>
 

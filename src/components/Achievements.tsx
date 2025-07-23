@@ -12,23 +12,23 @@ const achievements = [
   },
   {
     icon: Code2,
-    title: "Projects Completed",
-    metric: "15+",
-    description: "Successfully delivered diverse projects ranging from AI applications to system utilities",
+    title: "School Projects",
+    metric: "12+",
+    description: "Projects completed in various programming languages and frameworks",
     color: "accent"
   },
   {
     icon: Zap,
-    title: "Performance Optimization",
-    metric: "40% Faster",
-    description: "Average performance improvement achieved through CUDA programming and optimization techniques",
+    title: "GPU Performance",
+    metric: "2-3x Faster",
+    description: "Performance improvements I've achieved using CUDA programming in assignments",
     color: "secondary"
   },
   {
     icon: TrendingUp,
-    title: "Learning Velocity",
-    metric: "8 Technologies",
-    description: "Mastered new programming languages and frameworks in the past year",
+    title: "New Tech This Year",
+    metric: "5 Languages",
+    description: "New programming languages and frameworks I've learned recently",
     color: "primary"
   }
 ];
@@ -68,7 +68,7 @@ export const Achievements = () => {
             Achievements & Recognition
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Quantifiable results and recognition that demonstrate my commitment to excellence
+            Some numbers from my time in school and personal projects
           </p>
         </div>
 
